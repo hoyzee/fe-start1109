@@ -1,0 +1,137 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+/* h1:hover{        ПЕРЕЛЕВАННЯ КОЛИ НАВОДИШ
+    background-color: rgb(237, 55, 55);
+    color: rgb(44, 9, 9);
+} */
+h1:hover{
+    background-color: rgb(237, 55, 55);
+    color: rgb(44, 9, 9);
+    border: 2px solid black;
+}
+/* h3{
+    background-color: blue;
+    color: yellow
+}
+h2{
+    background-color: blue;
+    color: yellow
+}
+h4{
+    background-color: blue;
+    color: yellow
+} */
+/* DRY don't repeat yourself - не повторюй себе  */
+h2,h3,h4{
+    background-color: blue;
+    color: yellow
+}
+p{
+    background-color: rgb(43, 202, 226);
+    color: white;
+}
+p span{
+    background-color: black;
+    color: yellow;
+}
+span{
+    background-color: yellow;
+    color: black;
+}
+/* ЗІРОЧКА ЦЕ ВСІ ЕЛЕМЕНТИ*{
+    font-style: italic;
+} */
+#top{
+    background-color: yellow;
+    padding: 50px;
+    text-align: center;
+}
+/* article h3,
+article p{
+    text-align: center;
+}
+section h3,
+section p{
+    text-align: right;
+} */
+.center-content{
+    background-color: red;
+}
+
+.center-content h3,
+.center-content p{
+    text-align: center;
+}
+.right-content{
+    background-color: green;
+}
+.right-content h3,
+p{
+    text-align: right;
+}
+.border-block{
+    border: 4px solid black;
+    
+}
+.right-content.border-block{
+    font-size: 35px;
+}
+/* denger btn */
+.denger-block{
+    background-color: greenyellow;
+}
+.black-font-color{
+    color: white;
+}
+/* .right-content.border-block{} */
+span+span{
+    background-color: orange;
+    color: black;
+}
+.First-item{
+    background-color: blue;
+    color: white;
+}
+.last-item{
+    background-color: green;
+    color: grey;
+}
+.Third-item{
+    background-color: red;
+    color: gold;
+}
+li:first-child{
+    background-color: blue;
+    color: white;
+}
+li:last-child{
+    background-color: green;
+    color: red;
+}
+li:nth-child(2){
+    background-color: red;
+    color: gold;
+}
+li:nth-child(3){
+    background-color: rgb(0, 38, 255);
+    color: gold;
+}
+li:nth-child(4){
+    background-color: rgb(216, 6, 244);
+    color: gold;
+}
+li:nth-child(5){
+    background-color: rgb(0, 0, 0);
+    color: gold;
+}
+a[href='https://code.visualstudio.com/']{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+
