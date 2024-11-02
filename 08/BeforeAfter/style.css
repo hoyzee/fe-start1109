@@ -1,0 +1,26 @@
+h3{
+    background-color: yellow;
+    text-align: center;
+}
+h3::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    margin-right: 25;
+    position: relative;
+    bottom: 5px;
+}   
+h3::after{
+    /* content: "$"; */
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    margin-left: 25;
+    position: relative;
+    bottom: 10px;
+    
+}

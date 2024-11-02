@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: ; */
+    margin: 0;
+    background-color: gray;
+}
+header{
+    padding: 20px;
+    background-color: orange;
+    /* max-width: 1600px; */
+    width: 96%;
+    margin: 0 auto;
+}
+main{
+    width: 96%;
+    margin: 0 auto;
+}
+.text-content{
+    width: 52%;
+}

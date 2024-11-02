@@ -1,0 +1,62 @@
+.item{
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgb(4, 251, 255);
+    width: 20px;
+}
+.item:nth-child(2){
+    background-color: rgb(146, 23, 23);
+    /* order: 6; */
+}
+.item:nth-child(3){
+    background-color: rgb(8, 249, 93);
+}
+.item:nth-child(4){
+    background-color: rgb(209, 3, 255);
+}
+.item:nth-child(5){
+    background-color: rgb(0, 55, 255);
+    align-self: flex-start;
+}
+.item:nth-child(6){
+    background-color: rgb(8, 233, 191);
+    height: 60px;
+    align-self: flex-end;
+}
+.item:nth-child(7){
+    background-color: rgb(149, 247, 131);
+    height: 100px;
+    align-self: center;
+}
+.item:nth-child(8){
+    background-color: rgb(242, 0, 255);
+    height: 150px;
+    order: -1;
+}
+.i-flex{
+    display: inline-flex;
+    border: 2px solid black;
+}
+.d-flex{
+    height: 270px;
+    margin: 100px auto;
+    max-width: 1600px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-flow:  row-reverse wrap; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; COOL THINKS */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+    row-gap: 20px;
+    column-gap: 50px;
+}

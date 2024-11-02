@@ -1,0 +1,185 @@
+:root{
+    --header--bg:orange;
+    --header--padding:10px;
+    --wrapper--size:90%;
+    --link--color:black;
+}
+/* html{
+    font-size: 25px;
+} */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    padding: var(--header--padding);
+    background-color: var(--header--bg);
+}
+.wrapper{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 35px;
+}
+.logo{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+nav a{
+    display: inline-block;
+    margin: 10px;
+    margin: 20px;
+    font-size: 25px;
+}
+.user-block{
+    padding: 50px;
+    background-color: firebrick;
+    color: white;
+}
+                    /* ЦЕ ДЛЯ ПККККККККККК */
+/* @media screen and (max-width: 800px){
+    :root{
+        --header--bg:rgb(195, 255, 0);
+        --header--padding:80px;
+        --wrapper--size:80%;
+        
+    }
+    .wrapper{
+        background-color: gray;
+    }
+    nav a{
+        color: white;
+    }
+    
+    
+}
+@media(max-width: 600px){
+    :root{
+        --header--bg:rgb(0, 255, 8);
+        --header--padding:100px;
+        --wrapper--size:90%;
+        --link--color:black;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .wrapper{
+        background-color: rgb(34, 34, 34);
+    }
+    
+    
+}
+@media screen and (max-width: 400px){
+    :root{
+        --header--bg:orange;
+        --header--padding:10px;
+        --wrapper--size:95%;
+    }
+    
+    
+} */
+/* @media screen and(min-width:600px){
+    
+} */
+ /* ЦЕ ДЛЯ ТЕЛЕФОНІВ */
+
+@media(min-width:600px){
+    .wrapper{
+        flex-direction: row;
+        row-gap: 0px;
+    }
+}
+/* @media screen and (min-width:800px) and (max-width:1080px) {
+    header{
+        display: none;
+    }
+    body::before{
+        content: 'Hello world';
+    }
+} */
+@media (800px <= width <= 1080px) {
+    header{
+        display: none;
+    }
+    body{
+        background-color: yellow;
+    }
+    body::before{
+        content: 'Hello world';
+    }
+}
+@media(min-width:1200px){
+    :root{
+        --header--bg:rgb(162, 0, 255);
+        --header--padding:100px;
+        --wrapper--size:70%;
+        --link--color:black;
+    }
+}
+@media print{
+    nav a{
+        font-size: 14px;
+        margin: 5px;
+    }
+    .logo,
+    .user-block
+    {
+        border: 2px solid black;
+    }
+}
+
+/* @media(min-aspect-ratio:10/7){
+    body{
+        background-color: pink;
+    }
+} */
+/* @media(max-aspect-ratio:10/7){
+    body{
+        background-color: pink;
+    }
+} */
+
+
+/* em, rem */
+.user-block{
+    font-size: 20px;
+}
+button{
+    display: inline-block;
+    padding: 1rem 20rem;
+    background-color: violet;
+    color: white;
+    font-size: inherit;
+    margin: 5rem;
+}
+@media(max-width:1600px){
+    .user-block{
+        font-size: 10px;
+    }
+}
+.content{
+    /* width: 50%;
+    margin: 0 auto;
+    border: 4px solid black; */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    min-height: 100vh;
+    /* vp */
+    /* min-height: 100vh; ДУЖЕ ЗРУЧНО!!!!!!!!!!!! */
+    /* width: 50%; */
+}
+section h1{
+    margin: auto;
+    text-align: center;
+    font-size: 6vw;
+}
+section:nth-child(2){
+    background-color: gray;
+    /* width: 50vw; */
+}
